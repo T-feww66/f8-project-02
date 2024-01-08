@@ -341,7 +341,8 @@ header.fixed {
 }
 
 .course-list .item .thumb {
-    width: 100%;
+    margin: -1px;
+    width: calc(100% + 2px);
     height: 278px;
     border-radius: 12px 12px 0px 0px;
     object-fit: cover;
