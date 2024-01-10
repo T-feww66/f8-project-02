@@ -429,10 +429,15 @@ header.fixed {
     padding: 96px 0;
 }
 
+.feedback .main-content {
+    overflow: hidden;
+}
+
 
 .feedback-list {
+    position: relative;
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
     transition: all 0.75s ease;
 }
 
